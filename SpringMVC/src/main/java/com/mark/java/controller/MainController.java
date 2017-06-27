@@ -29,7 +29,7 @@ public class MainController {
         u.setUsername("Hello");
         us.add(u);
         u = new User();
-        u.setUsername("World??");
+        u.setUsername("World!");
         us.add(u);
         userService.saveUsers(us);
         return "index";
