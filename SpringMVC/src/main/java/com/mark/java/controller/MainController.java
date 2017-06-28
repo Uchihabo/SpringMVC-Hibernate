@@ -29,7 +29,7 @@ public class MainController {
         u.setUsername("Hello");
         us.add(u);
         u = new User();
-        u.setUsername("6月28，提交的push不好使？");
+        u.setUsername("6月28，要用Commit Changes");
         us.add(u);
         userService.saveUsers(us);
         return "index";
